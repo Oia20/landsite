@@ -1,3 +1,5 @@
+GH pages: https://oia20.github.io/landsite/
+
 To do:
 - Talk to mom about content.
 - update photos.
