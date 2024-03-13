@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($to, $subject, $messageBody, $headers);
 
     // Redirect after submission (you can customize the URL)
-    header("Location: thank_you.html");
+    // header("Location: thank_you.html");
     exit();
 } else {
     // Handle the case when the form is not submitted
