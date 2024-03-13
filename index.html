@@ -136,23 +136,24 @@
 							<div class="content">
 								<h2 class="align-center">Get in Touch</h2>
 								<hr />
-								<form action="process_form.php" method="POST">
+								<form enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdQB0JF6rjgcmNv5qdL3TlsJlgx8QlAuvxVrUif34wS83KnTA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
 									<div class="field half first">
 										<label for="name">Name</label>
-										<input name="name" id="name" type="text" placeholder="Name">
+										<input name="entry.1339285068" id="entry.1339285068" type="text" placeholder="Name">
 									</div>
 									<div class="field half">
 										<label for="email">Email</label>
-										<input name="email" id="email" type="email" placeholder="Email">
+										<input name="entry.879747854" id="entry.879747854" type="email" placeholder="Email">
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+										<textarea name="entry.799437142" id="entry.799437142" rows="6" placeholder="Message"></textarea>
 									</div>
 									<ul class="actions align-center">
 										<li><input value="Send Message" class="button special" type="submit"></li>
 									</ul>
 								</form>
+								<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 							</div>
 						</div>
 					</section>
