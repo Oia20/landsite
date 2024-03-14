@@ -5,6 +5,7 @@ To do:
 - update photos.
 - update texts.
 - make form submit to email.
+- Add contact info (number, email)
 
   Todo launch:
   - make repo public
