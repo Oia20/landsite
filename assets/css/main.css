@@ -1634,7 +1634,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Taviraj", serif;
+		font-family: "Monaco", 'Times New Roman', Times, serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -1723,7 +1723,7 @@
 	code {
 		border-radius: 4px;
 		border: solid 1px;
-		font-family: "Courier New", monospace;
+		font-family: "Monaco", 'Times New Roman', Times, serif;
 		font-size: 0.9rem;
 		margin: 0 0.25rem;
 		padding: 0.25rem 0.65rem;
@@ -1731,7 +1731,7 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: "Monaco", 'Times New Roman', Times, serif;
 		font-size: 0.9rem;
 		margin: 0 0 2rem 0;
 	}
@@ -2088,7 +2088,7 @@
 		.select-wrapper:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: "Monaco", 'Times New Roman', Times, serif;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2152,7 +2152,7 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Monaco", 'Times New Roman', Times, serif;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -2287,7 +2287,7 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: "Monaco", 'Times New Roman', Times, serif;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -3473,7 +3473,7 @@
 					content: "";
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
+					font-family: "Monaco", 'Times New Roman', Times, serif;
 					font-style: normal;
 					font-weight: normal;
 					text-transform: none !important;
@@ -3654,7 +3654,7 @@
 				content: "";
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Monaco", 'Times New Roman', Times, serif;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -3746,9 +3746,10 @@
 		}
 
 		#banner p {
-			color: rgba(255, 255, 255, 0.65);
+			color: #fff;
 			font-size: 1.5rem;
 			margin-bottom: 3rem;
+			text-shadow: #000 4px 4px 5px;
 		}
 
 		#banner a {
