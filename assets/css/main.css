@@ -19,6 +19,9 @@
 		vertical-align: baseline;
 	}
 
+	span.email b {
+		display: none;
+	}
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
