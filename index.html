@@ -6,10 +6,11 @@
 -->
 <html>
 	<head>
-		<title>Transitive by TEMPLATED</title>
+		<title>Acre and Lot</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image/x-icon" href="images\Bright Yellow Tree Icon Landscaping Logo (1).png">
 	</head>
 	<body>
 
@@ -20,7 +21,7 @@
 			its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
 			formats to work correctly.
 		-->
-			<section id="banner" data-video="images/pic01.jpg">
+			<section id="banner" src="images\pic01.jpg">
 				<div class="inner">
 					<h1>ACRE AND LOT</h1>
 					<p>As nature lovers, we purchase land, easing your tax burden and lengthy sale time.</p>
@@ -146,25 +147,33 @@
 					<section>
 						<div class="box">
 							<div class="content">
-								<h2 class="align-center">Get in Touch</h2>
+								<h2 class="align-center">Speak With Us</h2>
+								<span class="email">Number: 419.31<b>146.285.343222</b>8.2802</span>
+								<br>
+								<span class="email">Email: rshaw@acre<b>.example</b>andlot.com</span>
+								<br>
+								<span class="email">Return Address: PO BOX 373 Sylv<b>eofjjoejofjeof</b>ania OH, 43560</span>
+								<br>
+								<span class="email">Fax: 419.57<b>238293.32</b>4.4171</span>
 								<hr />
-								<form action="https://formsubmit.co/jdement97@gmail.com" method="post" enctype="text/plain">
+								<form id="gform" class="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdQB0JF6rjgcmNv5qdL3TlsJlgx8QlAuvxVrUif34wS83KnTA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
 									<div class="field half first">
 										<label for="name">Name</label>
-										<input name="name" id="name" type="text" placeholder="Name">
+										<input name="entry.1339285068" id="entry.1339285068" type="text" placeholder="Name">
 									</div>
 									<div class="field half">
 										<label for="email">Email</label>
-										<input name="email" id="email" type="email" placeholder="Email">
+										<input name="entry.879747854" id="entry.879747854" type="email" placeholder="Email">
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+										<textarea name="entry.799437142" id="entry.799437142" rows="6" placeholder="Message"></textarea>
 									</div>
 									<ul class="actions align-center">
 										<li><input value="Send Message" class="button special" type="submit"></li>
 									</ul>
 								</form>
+								<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 							</div>
 						</div>
 					</section>
@@ -178,6 +187,13 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/jquery.min.js"></script>
+			<script type="text/javascript">var submitted=false;</script>
+			<script type="text/javascript">
+			$('#gform').on('submit', function(e) {
+			$('#gform *').fadeOut(2000);
+			$('#gform').prepend('Thank you! Your message has been sent to us. We will get back to you as soon as possible.');
+			});
+			</script>
 	</body>
 </html>
